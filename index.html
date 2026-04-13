@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhavya Aditi</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      max-width: 420px;
+      width: 90%;
+      text-align: center;
+      border: 1px solid #e2e8f0;
+    }
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-size: 28px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+    }
+    h1 { font-size: 22px; font-weight: 600; color: #1e293b; }
+    .dept { font-size: 14px; color: #64748b; margin-top: 4px; }
+    hr { border: none; border-top: 1px solid #f1f5f9; margin: 1.5rem 0; }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      padding: 6px 0;
+    }
+    .info-row .label { color: #64748b; }
+    .info-row .value { font-weight: 600; color: #1e293b; }
+    .badge {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-size: 12px;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-top: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">BA</div>
+    <h1>Bhavya Aditi</h1>
+    <p class="dept">Computer Science & Engineering</p>
+    <hr>
+    <div class="info-row">
+      <span class="label">Roll Number</span>
+      <span class="value">04101012023</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Experiment</span>
+      <span class="value">EXP3</span>
+    </div>
+    <hr>
+    <span class="badge">Deployed on Vercel</span>
+  </div>
+</body>
+</html>
